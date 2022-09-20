@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+a{
+    color: aliceblue;
+}
+nav img{
+    width: 15%;
+}
+nav h2{
+  color: red;
+  padding: 20px;
+  font-size: 45px;
+  font-family: 'Bebas Neue', cursive;
+}
+.hamburger div{
+    margin: 4px;
+    height: 2px;
+    width: 25px;
+    background-color: aliceblue;
+   
+}
+nav{
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+ 
+   
+}
+
+.close{
+    display: none;
+}
+.minidiv ul li a:hover {
+border-bottom:1px solid white ;
+color: lightgray;
+transition: 0.3s ease-in-out;
+margin-left: 4px;
+}
+
+/* carousel */
+.carousel {
+    background-color: rgb(26, 24, 24);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+
+  .carousel h4 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 50px;
+    text-align:left;
+  }
+  .quote {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .owl-carousel .owl-item img {
+    display: inline !important;
+  }
+
+  /* .owl-dots {
+      
+    text-align: center;
+    padding-bottom: 50px;
+  } */
+  /* .owl-dot:hover,
+  .owl-dot.active {
+    background-color: yellow !important;
+  } */
+  
+  .cards {
+    background-color: rgb(63, 65, 66) !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  .cards img{
+      width: 100% !important;
+      object-fit: cover !important;
+
+  }
+  .stars img {
+    width: 35px !important;
+    width: 35px !important;
+    object-fit: cover;
+  }
+  .minidiv{
+      z-index: 10;
+  }
+
+@media(max-width:765px){
+    nav img{
+        width: 25%;
+        padding: 20px;
+    }
+    
+    .minidiv{
+        position: absolute;
+        background-color: rgba(58, 55, 55,0.7);
+        width: 70%;
+        top: 70px;
+        transition: 0.5s ease-in-out;
+        transform: translateX(-768px);
+    }
+    .minidiv ul{
+        margin-top: 20px;
+    }
+    .minidiv ul li{
+        font-size: 20px;
+        line-height: 35px;
+        padding-left: 20px;
+    }
+    .hamburger{
+        position: relative;
+        right: 20px;
+        top: 20px;
+    }
+
+    .carousel {
+        background-color: rgb(26, 24, 24);
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 20px;
+        overflow: hidden;
+      }
+      
+    
+      .carousel h4 {
+        color: rgb(117, 114, 114);
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 2px;
+        padding-top: 20px;
+        text-align:left;
+      }
+  
+   
+      
+      .cards {
+        background-color: rgb(63, 65, 66) !important;
+        border-radius: 10px;
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+
+      }
+      .cards img{
+          width: 100% !important;
+          object-fit: cover !important;
+    
+      }
+
+      footer{
+        background-color: rgb(63, 65, 66);
+        color: lightgrey;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    footer h6{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    footer a{
+        color: lightgrey;
+    }
+    footer .d-text ul li{
+        line-height: 30px;
+    }
+    .d-text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    @keyframes change{
+    0%{
+      background: url(images/r.jpeg);
+      background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.4s ease-in-out;
+    
+  
+    }
+    20%{
+      background: url(images/q.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.4s ease-in-out;
+    }
+    40%{
+      background: url(images/boxshot.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.4s ease-in-out;
+    }
+    60%{
+      background: url(images/pressing.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.4s ease-in-out;
+    }
+    80%{
+      background: url(images/background.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.4s ease-in-out;
+    }
+    100%{
+      background: url(images/netflixbackground.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0.4s ease-in-out;
+    }
+  } 
+   
+}
+@media(min-width:765px){
+    .minidiv{
+        position: absolute;
+        background-color: rgba(37, 36, 36,0.6);
+        width: 30%;
+        top: 90px;
+        padding-bottom: 30px;
+        transform: translateX(-768px);
+        transition: 0.5s ease-in-out;
+        
+    }
+    .minidiv ul{
+margin-top: 20px;
+transition: 0.5s ease-in-out;
+    }
+    .minidiv ul li{
+        font-size: 20px;
+        
+        line-height: 35px;
+        padding-left: 20px;
+    }
+    .hamburger{
+        position: relative;
+        right: 40px;
+        top: 20px;
+    }
+    
+footer{
+    background-color: black;
+    color: lightgrey;
+    padding-top: 40px;
+}
+footer h6{
+    font-size: 20px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
+footer a{
+    color: lightgrey;
+}
+    .d-text{
+        display: flex;
+        padding-top: 20px;
+        justify-content: space-around;
+    }
+    footer .d-text ul li{
+        line-height: 30px;
+    }
+    footer .d-text ul li a:hover{
+        color: gray;
+        transition: 0.2s ease-in-out;
+        border-bottom: 3px solid white;
+    }
+}

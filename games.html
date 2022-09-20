@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self service app</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <section>
+        <!-- nav section -->
+        <nav>
+            <div class="wrapper">
+              <img src="images/rename logo.png" alt="">
+                <div class="minidiv">
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="">Discover</a></li>
+                        <li><a href="">Online games</a></li>
+                        <li><a href="">Movies</a></li>
+                        <li><a href="">Buisiness</a></li>
+                        <li><a href="">Music</a></li>
+                        <li><a href="">Wallpapers</a></li>
+                        <li><a href="">To-do-list</a></li>
+                        <li><a href="">Fitness & exercise</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                <div class="lines1" style="background-color: aliceblue;"></div>
+                <div class="lines2" style="width: 19px; background-color: aliceblue;"></div>
+                <div class="lines3" style="width: 15px; background-color: aliceblue;"></div>
+                </div>
+                <div class="close">
+                    <div class="hamburger">
+                        <div class="lines1" style="background-color: aliceblue;"></div>
+                        <div class="lines2" style="width: 19px; background-color: aliceblue;"></div>
+                        <div class="lines3" style="width: 15px; background-color: aliceblue;"></div>
+                        </div>
+                </div>
+  
+            </div>
+        </nav>
+
+
+
+        <!-- gallery section -->
+
+<div class="over">
+  <button  class="button active" data-filter="all"><a href="gallery.html">All</a></button>
+  <button class="button" data-filter="games"><a href="games.html">Games</a></button>
+  <button class="button" data-filter="anime"><a href="anime.html">Anime</a></button>
+  <button class="button" data-filter="car"><a href="cars.html">Cars</a></button>
+  <button class="button" data-filter="buiding"><a href="building">Buildings</a></button>
+  <button class="button" data-filter="nature"><a href="Nature.html">Nature</a></button>
+</div>
+<div class="gallery">
+    <div>
+        <a href="images/2010_inception-1920x1200.jpg" class="image all">
+          <img src="images/2010_inception-1920x1200.jpg" alt="">
+        </a>
+      </div>
+      <div class="v-stretch">
+        <a href="images/2010_legion_movie_2-1600x1200.jpg" class="image all">
+              <img src="images/2010_legion_movie_2-1600x1200.jpg" alt="">
+        </a>
+      </div>
+      <div class="big-stretch">
+        <a href="images/wallpaper2.jpg" class="image anime">
+          <img src="images/wallpaper2.jpg" alt="">
+        </a>
+      </div>
+  <div>
+    <a href="images/2011_batman_arkham_city-1920x1080.jpg">
+      <img src="images/2011_batman_arkham_city-1920x1080.jpg" alt="" >
+    </a>
+  </div>
+  <div class="v-stretch">
+    <a href="images/2011_battlefield_3_game-1920x1080.jpg">
+      <img src="images/2011_battlefield_3_game-1920x1080.jpg" alt="" class="image building">
+    </a>
+  </div>
+ 
+    <div>
+        <a href="images/2011_cowboys_and_aliens-1680x1050.jpg" >
+          <img src="images/2011_cowboys_and_aliens-1680x1050.jpg" alt="">
+        </a>
+      </div>
+      <div class="v-stretch">
+        <a href="images/165491_original_6000x4000.jpg" class="image all">
+              <img src="images/165491_original_6000x4000.jpg" alt="">
+        </a>
+      </div>
+      <div class="big-stretch">
+        <a href="https://images3.alphacoders.com/593/thumbbig-593826.webp" class="image anime">
+          <img src="https://images3.alphacoders.com/593/thumbbig-593826.webp" alt="">
+        </a>
+      </div>
+  <div>
+    <a href="https://images3.alphacoders.com/608/thumbbig-608887.webp" class="image cars">
+      <img src="https://images3.alphacoders.com/608/thumbbig-608887.webp" alt="" >
+    </a>
+  </div>
+  <div class="v-stretch">
+    <a href="https://images5.alphacoders.com/564/thumbbig-564931.webp" class="image buildings">
+      <img src="https://images5.alphacoders.com/564/thumbbig-564931.webp" alt="" >
+    </a>
+  </div>
+  <div class="v-stretch">
+    <a href="https://images3.alphacoders.com/105/thumbbig-1051510.webp" class="image buildings">
+      <img src="https://images3.alphacoders.com/105/thumbbig-1051510.webp" alt="" >
+    </a>
+  </div>
+  <div class="v-stretch">
+    <a href="https://images3.alphacoders.com/715/thumbbig-715918.webp" class="image building">
+      <img src="https://images3.alphacoders.com/715/thumbbig-715918.webp" alt="" >
+    </a>
+  </div>
+ 
+</div>
+<!-- end of nav section -->
+
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+      $('.gallery').magnificPopup({
+    
+        delegate:'a',
+        type:'image',
+        gallery:{
+          enabled:true 
+        }
+    
+      });
+    
+    </script>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+<!-- css style is gallery.css -->
