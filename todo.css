@@ -519,7 +519,7 @@ position: absolute;
 background-color: #222222;
 width: 80%;
 top: 90px;
-height: 50%;
+height: 100%;
 transform: translateX(-798px);
 transition: 0.3s ease-in-out;
 }

@@ -28,7 +28,7 @@ nav button{
     width: 100px;
  
     height: 35px;
-    background-color: rgb(240, 0, 0);
+    background-color: #8c5ef3;
     color: white;
     border: none;
     cursor: pointer;
@@ -41,9 +41,15 @@ nav h2{
     font-size: 45px;
     font-family: 'Bebas Neue', cursive;
 }
+nav h1{
+    font-size: 26px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
 nav{
     display: flex;
     justify-content: space-between;
+   
 }
 
 
@@ -79,7 +85,7 @@ nav{
     width: 200px;
     height: 64px;
     border: none;
-    background-color: red;
+    background-color: #8c5ef3;
     font-size: 23px;
     cursor: pointer;
 }
@@ -372,12 +378,12 @@ color: aliceblue;
     /* body1 styling */
     .a-text button{
         position: relative;
-        left: 206.6px;
-        bottom: 63.7px;
-        border: 3px solid rgb(240, 0, 0) ;
+        left: -20px;
+        bottom: -3px;
+        border: 3px solid #8c5ef3 ;
     }
     .first{
-        height: 80vh;
+        height: 50vh;
     }
     .a-text input{
         color: gray;
@@ -526,10 +532,10 @@ color: aliceblue;
        
         left: -90px;
 top: 3px;
-        border: 3px solid rgb(240, 0, 0) ;
+        border: 3px solid #8c5ef3 ;
     }
     .first{
-        height: 150vh;
+        height: 80vh;
     }
     .a-text input{
         color: gray;
