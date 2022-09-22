@@ -152,6 +152,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
+    margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -173,7 +174,7 @@ padding-top: 10px;
     height: 40px;
     margin-top: 40px;
     cursor: pointer;
-    
+    margin-bottom: 20px;
     color: rgb(252, 252, 252);
     border-radius: 20px;
     background: transparent;
@@ -195,7 +196,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
-  
+  margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -238,7 +239,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
-
+margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -275,47 +276,47 @@ padding-top: 10px;
     font-size: 40px;
 }
 .games4{
-    animation: change4 30s  infinite ease-in-out;
-     width: 100%;
-    background: url(https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90aXZhdGlvbmFsJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
-    background-position: center;
-    background-size: 1300px;
-    height: 60vh;
- 
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-.games4 p{
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    padding-bottom: 30px;
-    width: 50%;
-   margin-left: 30px;
-    padding-left: 20px;
-    padding-top: 80px;
+  animation: change4 35s  infinite ease-in-out;
+   width: 100%;
+  background: url(https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90aXZhdGlvbmFsJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
+  background-position: center;
+  background-size: 1300px;
+  height: 60vh;
+margin-bottom: 30px;
+  object-fit: cover;
+  background-repeat: no-repeat;
   
 }
+.games4 p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding-bottom: 30px;
+  width: 50%;
+ margin-left: 30px;
+  padding-left: 20px;
+  padding-top: 30px;
+
+}
 .games4 button{
-    width: 120px;
-    border: none;
-    margin-left: 50px;
-    height: 40px;
-    margin-top: 40px;
-    cursor: pointer;
-    
-    color: rgb(252, 252, 252);
-    border-radius: 20px;
-    background: transparent;
-    border: 2px solid #8c5ef3 ;
+  width: 120px;
+  border: none;
+  margin-left: 50px;
+  height: 40px;
+  margin-top: 0px;
+  cursor: pointer;
+  
+  color: rgb(252, 252, 252);
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #8c5ef3 ;
 }
 
 .games4 h1{
-    color: #8c5ef3;
+  color: #8c5ef3;
 
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 40px;
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 40px;
 }
 .games5{
     animation: change5 35s  infinite ease-in-out;
@@ -324,7 +325,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
- 
+ margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -367,7 +368,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
- 
+ margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -410,7 +411,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
- 
+ margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -453,7 +454,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
- 
+ margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -496,7 +497,7 @@ padding-top: 10px;
     background-position: center;
     background-size: 1300px;
     height: 60vh;
- 
+ margin-bottom: 30px;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -952,6 +953,7 @@ padding-top: 10px;
     }
 }
 
+
 @media(max-width:765px){
     /* mobile responsive styling */
     /* nav styling */
@@ -1034,7 +1036,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+     margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1042,11 +1044,11 @@ transition: 0.6s ease-in-out;
     .games p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games button{
@@ -1075,7 +1077,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-      
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1083,11 +1085,11 @@ transition: 0.6s ease-in-out;
     .games2 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games2 button{
@@ -1116,7 +1118,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-    
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1124,11 +1126,11 @@ transition: 0.6s ease-in-out;
     .games3 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games3 button{
@@ -1157,7 +1159,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1165,11 +1167,11 @@ transition: 0.6s ease-in-out;
     .games4 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games4 button{
@@ -1198,7 +1200,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1206,11 +1208,11 @@ transition: 0.6s ease-in-out;
     .games5 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games5 button{
@@ -1239,7 +1241,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1247,11 +1249,11 @@ transition: 0.6s ease-in-out;
     .games6 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games6 button{
@@ -1280,7 +1282,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1288,11 +1290,11 @@ transition: 0.6s ease-in-out;
     .games7 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games7 button{
@@ -1321,7 +1323,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1329,11 +1331,11 @@ transition: 0.6s ease-in-out;
     .games8 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games8 button{
@@ -1362,7 +1364,7 @@ transition: 0.6s ease-in-out;
         background-position: center;
         background-size: cover;
         height: 50vh;
-     
+        margin-bottom: 30px;
         object-fit: cover;
         background-repeat: no-repeat;
         
@@ -1370,11 +1372,11 @@ transition: 0.6s ease-in-out;
     .games9 p{
         color: rgb(255, 255, 255);
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         width: 90%;
     margin-left: 0px;
         padding-left: 20px;
-        padding-top: 100px;
+        padding-top: 40px;
       
     }
     .games9 button{
@@ -1415,6 +1417,7 @@ transition: 0.6s ease-in-out;
     .wrapper ul{
         width: 100%;
     }
+  
     .minidiv{
         width: 100%;
     }
@@ -1424,7 +1427,7 @@ transition: 0.6s ease-in-out;
     }
     .wrapper h1{
         font-size: 18px;
-        padding-top: 20px;
+        padding-top: 35px;
     }
    /* end of nav styling */
 
@@ -1433,12 +1436,37 @@ transition: 0.6s ease-in-out;
   }
   .games{
     height: 30vh;
+
+  }
+  .games p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games button{
+    
+    margin-top: 12px;
   }
   .games2{
     height: 30vh;
   }
+  .games2 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games2 button{
+    
+    margin-top: 12px;
+  }
   .games3{
     height: 30vh;
+  }
+  .games3 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games3 button{
+    
+    margin-top: 12px;
   }
   .games4{
     height: 30vh;
@@ -1446,17 +1474,57 @@ transition: 0.6s ease-in-out;
   .games5{
     height: 30vh;
   }
+  .games5 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games5 button{
+    
+    margin-top: 12px;
+  }
   .games6{
     height: 30vh;
+  }
+  .games6 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games6 button{
+    
+    margin-top: 12px;
   }
   .games7{
     height: 30vh;
   }
+  .games7 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games7 button{
+    
+    margin-top: 12px;
+  }
   .games8{
     height: 30vh;
   }
+  .games8 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games8 button{
+    
+    margin-top: 12px;
+  }
   .games9{
     height: 30vh;
+  }
+  .games9 p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .games9 button{
+    
+    margin-top: 12px;
   }
 }
 
