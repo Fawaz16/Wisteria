@@ -1426,8 +1426,9 @@ transition: 0.6s ease-in-out;
         padding-top: 20px;
     }
     .wrapper h1{
-        font-size: 18px;
+        font-size: 23px;
         padding-top: 35px;
+        font-weight: 400;
     }
    /* end of nav styling */
 
@@ -1535,7 +1536,7 @@ transition: 0.6s ease-in-out;
     /* styling for screen resolutions 1024px higher */
 
     .wrapper h1{
-        font-size: 22px;
+        font-size: 25px;
         margin-top: 15px;
     }
     .close{
