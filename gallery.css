@@ -4,8 +4,10 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "Inter", sans-serif;
-    font-family: "Open Sans", sans-serif;
+    
+}
+body{
+  font-family: 'Poppins', sans-serif; 
 }
 
 nav img{
@@ -14,6 +16,7 @@ nav img{
 }
 nav h1{
     padding-top: 20px;
+    font-family: 'Cedarville Cursive', cursive;
 }
 .wrapper h1{
     font-size: 30px;
@@ -125,9 +128,10 @@ padding-top: 10px;
     font-size: 17px;
 }
 
+/*  */
 
 
-
+/* homepage styling */
 
 .z-text p{
     font-size: 20px;
@@ -158,7 +162,7 @@ padding-top: 10px;
     
 }
 .games p{
-    color: rgb(207, 205, 205);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     padding-bottom: 30px;
     width: 50%;
@@ -202,7 +206,7 @@ padding-top: 10px;
     
 }
 .games2 p{
-    color: rgb(216, 214, 214);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     padding-bottom: 30px;
     width: 50%;
@@ -219,7 +223,7 @@ padding-top: 10px;
     margin-top: 40px;
     cursor: pointer;
     
-    color: rgb(252, 252, 252);
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     background: transparent;
     border: 2px solid #8c5ef3 ;
@@ -534,7 +538,7 @@ margin-bottom: 30px;
     font-size: 40px;
 }
 
-
+/* background animations */
 
 @keyframes change{
     0%{
@@ -953,6 +957,13 @@ margin-bottom: 30px;
     }
 }
 
+
+
+
+/*  */
+
+
+/* mobile screen sizes */
 
 @media(max-width:765px){
     /* mobile responsive styling */
@@ -1400,6 +1411,10 @@ transition: 0.6s ease-in-out;
     }
 }
 
+
+/* for ipad */
+
+
 @media(min-width:767px){
     /* styling for ipad */
 
@@ -1530,6 +1545,9 @@ transition: 0.6s ease-in-out;
 }
 
 
+/*  */
+
+/* for bigger screen sizes */
 
 @media(min-width:1064px){
 
@@ -1537,7 +1555,7 @@ transition: 0.6s ease-in-out;
 
     .wrapper h1{
         font-size: 25px;
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .close{
         display: none;
@@ -1584,3 +1602,4 @@ transition: 0.6s ease-in-out;
       height: 60vh;
     }
 }
+/*  */

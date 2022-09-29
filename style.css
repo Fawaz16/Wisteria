@@ -3,11 +3,14 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+ 
 }
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif; 
 }
+
+
 /* nav styling */
 nav img{
     width:13%;
@@ -19,7 +22,7 @@ nav img{
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh;
-    animation: change 16s ease-in-out infinite;
+    animation: change 26s ease-in-out infinite;
  
 
     
@@ -39,12 +42,12 @@ margin-right: 30px;
 nav h2{
     color: red;
     font-size: 45px;
-    font-family: 'Bebas Neue', cursive;
 }
 nav h1{
     font-size: 26px;
     padding-top: 50px;
     padding-left: 40px;
+    font-family: 'Cedarville Cursive', cursive;
 }
 nav{
     display: flex;
@@ -96,9 +99,13 @@ nav{
     color: aliceblue;
 }
 
+
+
+/* for the animation */
+
 @keyframes change{
     0%{
-      background: url(https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vdGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60);
+        background: url(https://media.gettyimages.com/photos/general-view-of-the-camp-nou-stadium-prior-to-the-la-liga-match-and-picture-id83644252?k=20&m=83644252&s=612x612&w=0&h=63C3yRhRYwWwfbrJ_IjJ-Pcjf29K3NKSOGLGUf7EKlQ=);
       background-size: cover;
       background-position: center;
     background-repeat: no-repeat;
@@ -107,14 +114,14 @@ nav{
   
     }
     20%{
-      background: url(https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60);
+      background: url(images/darksiders__wrath_of_war-1920x1080.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       transition: 0.6s ease-in-out;
     }
     40%{
-      background: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60);
+      background: url(https://c4.wallpaperflare.com/wallpaper/156/661/289/light-action-fantasy-magic-wallpaper-preview.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -128,14 +135,14 @@ nav{
       transition: 0.6s ease-in-out;
     }
     80%{
-      background: url(https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90aXZhdGlvbmFsJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
+      background: url(https://c4.wallpaperflare.com/wallpaper/845/444/23/nature-landscape-oregon-waterfall-wallpaper-preview.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       transition: 0.6s ease-in-out;
     }
     100%{
-      background: url(https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+      background: url(https://c4.wallpaperflare.com/wallpaper/302/60/973/eminem-computer-wallpaper-preview.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -143,11 +150,13 @@ nav{
     }
   } 
 
+/*  */
 
 
 
 
-  /* sign up */
+
+  /* sign up page stylling*/
 
   .y2-text h1{
 color: #ffffff;
@@ -184,7 +193,7 @@ padding: 30px;
     }
     .first{
         height: 80vh;
-        animation: change 15s  infinite ease-in-out;
+        animation: change 25s  infinite ease-in-out;
     }
     nav{
         background-color: rgba(37, 34, 34,0.5);
@@ -334,7 +343,7 @@ padding: 30px;
     /* end of styling for body4 */
     @keyframes change{
         0%{
-          background: url(https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vdGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60);
+            background: url(https://media.gettyimages.com/photos/general-view-of-the-camp-nou-stadium-prior-to-the-la-liga-match-and-picture-id83644252?k=20&m=83644252&s=612x612&w=0&h=63C3yRhRYwWwfbrJ_IjJ-Pcjf29K3NKSOGLGUf7EKlQ=);
           background-size: cover;
           background-position: center;
         background-repeat: no-repeat;
@@ -343,14 +352,14 @@ padding: 30px;
       
         }
         20%{
-          background: url(https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60);
+          background: url(images/darksiders__wrath_of_war-1920x1080.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           transition: 0.6s ease-in-out;
         }
         40%{
-          background: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60);
+          background: url(https://c4.wallpaperflare.com/wallpaper/156/661/289/light-action-fantasy-magic-wallpaper-preview.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -364,14 +373,14 @@ padding: 30px;
           transition: 0.6s ease-in-out;
         }
         80%{
-          background: url(https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90aXZhdGlvbmFsJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
+          background: url(https://c4.wallpaperflare.com/wallpaper/845/444/23/nature-landscape-oregon-waterfall-wallpaper-preview.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           transition: 0.6s ease-in-out;
         }
         100%{
-          background: url(https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+          background: url(https://c4.wallpaperflare.com/wallpaper/302/60/973/eminem-computer-wallpaper-preview.jpg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;

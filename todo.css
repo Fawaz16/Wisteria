@@ -5,11 +5,12 @@
           box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Inter", sans-serif;
+  
 }
 
 body {
   background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif; 
 }
 
 a {
@@ -18,7 +19,8 @@ a {
 
 .wrapper h1{
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 400;
+  font-family: 'Cedarville Cursive', cursive;
   padding: 20px 40px;
   color: aliceblue;
   overflow: hidden;
@@ -585,7 +587,9 @@ transition: 0.3s ease-in-out;
   }
 
   .wrapper h1{
-    font-size: 22px;
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: 400;
 }
 .close{
     display: none;

@@ -3,14 +3,14 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "Inter", sans-serif;
-    font-family: "Open Sans", sans-serif;
+    
 }
 html{
     scroll-behavior: smooth;
 }
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif; 
 }
 a{
     color: aliceblue;
@@ -31,9 +31,11 @@ nav h2{
 }
 nav h1{
   font-size: 26px;
-  padding-top: 50px;
+  font-weight: 400;
+  padding-top: 40px;
   padding-bottom: 30px;
   padding-left: 40px;
+  font-family: 'Cedarville Cursive', cursive;
 }
 .hamburger div{
     margin: 4px;
@@ -175,14 +177,16 @@ margin-left: 4px;
         background-color: rgb(162, 61, 165) !important;
         border-radius: 10px;
         margin-top: 10px;
+        
         text-align: center;
         margin-bottom: 20px;
-        padding-bottom: 0px;
+        padding-bottom: -0px;
 
       }
       .cards img{
           width: 100% !important;
           object-fit: cover !important;
+     
     
       }
 
